@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/41ebf426f8.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="title">
+        <h2>Todo </h2>
+        <div class="checkbox-custom">
+          <input type="checkbox" id="toggle" class="visually-hidden">
+          <div class="control-me"></div>
+        </div>
+      </div>
+      <div class="group">
+        <div role="group" class="form-control">
+          <div class="create-div">
+            <button class="add-icon">
+              <i class="fa-solid fa-plus"></i>
+            </button>
+            <input type="text" placeholder="Create a new todo ..." id="field-1" class="create-input" value="">
+          </div>
+        </div>
+        <div class="my-todo"></div>
+      </div>
+      <div class="group-footer">
+        <div class="group-footer2">
+          <p class="todo-count"></p>
+          <div class="note">
+            <p class="note-p">To check TODO as done click it</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Made with ❤️ by BeboQ &copy;</p>
+    </footer>
+    <script src="main.js" defer></script>
+  </body>
+</html>
